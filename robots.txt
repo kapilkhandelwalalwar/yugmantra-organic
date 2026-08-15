@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /server/
+Disallow: /.orders/
+Sitemap: https://yugmantraorganic.in/sitemap.xml
