@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 700" width="520" height="700" role="img" aria-label="Sahiwal A2 jar">
+  <defs>
+    <linearGradient id="ghb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#DE9A24"/>
+      <stop offset=".34" stop-color="#F2BE45"/>
+      <stop offset=".72" stop-color="#FFDA7E"/>
+      <stop offset="1"   stop-color="#DE9A24"/>
+    </linearGradient>
+    <linearGradient id="ldb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#A87A1B"/>
+      <stop offset=".16"  stop-color="#E7B84E"/>
+      <stop offset=".40"  stop-color="#FFF0C4"/>
+      <stop offset=".58"  stop-color="#E7B84E"/>
+      <stop offset=".82"  stop-color="#A87A1B"/>
+      <stop offset="1"    stop-color="#6E4A12"/>
+    </linearGradient>
+    <linearGradient id="glb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#ffffff" stop-opacity=".62"/>
+      <stop offset=".14" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset=".70" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".90" stop-color="#ffffff" stop-opacity=".30"/>
+      <stop offset="1"   stop-color="#7a5a22" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="lbb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF2"/>
+      <stop offset="1" stop-color="#F0E7D4"/>
+    </linearGradient>
+    <radialGradient id="shb" cx=".5" cy=".5" r=".5">
+      <stop offset="0"   stop-color="#6b4a17" stop-opacity=".38"/>
+      <stop offset="1"   stop-color="#6b4a17" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grb" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="c"/>
+      <feBlend in="SourceGraphic" in2="c" mode="multiply"/>
+    </filter>
+    <clipPath id="cpb">
+      <path d="M157 146
+               L157 210
+               Q157 244 102 252
+               Q88 262 88 288
+               L88 610
+               Q88 640 118 640
+               L402 640
+               Q432 640 432 610
+               L432 288
+               Q432 262 418 252
+               Q363 244 363 210
+               L363 146 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- cast shadow -->
+  <ellipse cx="260" cy="662" rx="206" ry="26" fill="url(#shb)"/>
+
+  <!-- glass body -->
+  <path d="M157 146
+           L157 210
+           Q157 244 102 252
+           Q88 262 88 288
+           L88 610
+           Q88 640 118 640
+           L402 640
+           Q432 640 432 610
+           L432 288
+           Q432 262 418 252
+           Q363 244 363 210
+           L363 146 Z"
+        fill="#F6F1E4" fill-opacity=".55"/>
+
+  <!-- ghee fill -->
+  <g clip-path="url(#cpb)">
+    <rect x="82" y="266" width="356" height="382" fill="url(#ghb)"/>
+    <rect x="82" y="266" width="356" height="382" fill="url(#ghb)" filter="url(#grb)" opacity=".55"/>
+    <!-- meniscus -->
+    <ellipse cx="260" cy="268" rx="166" ry="15" fill="#FFF1C6" opacity=".55"/>
+    <ellipse cx="260" cy="273" rx="154" ry="9" fill="#FFFAE4" opacity=".38"/>
+    <!-- grain flecks -->
+    <g opacity=".30" fill="#FFF6DA">
+      <circle cx="188" cy="358" r="4.5"/><circle cx="318" cy="412" r="6"/>
+      <circle cx="236" cy="476" r="3.6"/><circle cx="356" cy="504" r="4.2"/>
+      <circle cx="156" cy="452" r="3.2"/><circle cx="274" cy="330" r="3.4"/>
+      <circle cx="208" cy="538" r="5"/><circle cx="334" cy="312" r="3"/>
+    </g>
+    <!-- inner light -->
+    <ellipse cx="187.76" cy="396" rx="46" ry="118" fill="#FFF3CE" opacity=".22"/>
+  </g>
+
+  <!-- glass sheen over everything -->
+  <path d="M157 146
+           L157 210
+           Q157 244 102 252
+           Q88 262 88 288
+           L88 610
+           Q88 640 118 640
+           L402 640
+           Q432 640 432 610
+           L432 288
+           Q432 262 418 252
+           Q363 244 363 210
+           L363 146 Z"
+        fill="url(#glb)"/>
+  <!-- specular streak -->
+  <rect x="110" y="300" width="13" height="254" rx="7" fill="#fff" opacity=".40"/>
+  <rect x="392" y="332" width="7" height="194" rx="4" fill="#fff" opacity=".22"/>
+
+  <!-- neck ring -->
+  <rect x="154" y="144" width="212" height="11" rx="5" fill="#E4DAC4" opacity=".85"/>
+
+  <!-- lid -->
+  <rect x="143" y="74" width="234" height="76" rx="9" fill="url(#ldb)"/>
+  <rect x="143" y="74" width="234" height="9" rx="4.5" fill="#FFF3CF" opacity=".55"/>
+  <rect x="143" y="137" width="234" height="13" rx="6" fill="#7A5316" opacity=".45"/>
+  <g opacity=".26" fill="#3A2708">
+    <rect x="151" y="87" width="2.4" height="46" rx="1.2"/><rect x="164" y="87" width="2.4" height="46" rx="1.2"/><rect x="177" y="87" width="2.4" height="46" rx="1.2"/><rect x="190" y="87" width="2.4" height="46" rx="1.2"/><rect x="203" y="87" width="2.4" height="46" rx="1.2"/><rect x="216" y="87" width="2.4" height="46" rx="1.2"/><rect x="229" y="87" width="2.4" height="46" rx="1.2"/><rect x="242" y="87" width="2.4" height="46" rx="1.2"/><rect x="255" y="87" width="2.4" height="46" rx="1.2"/><rect x="268" y="87" width="2.4" height="46" rx="1.2"/><rect x="281" y="87" width="2.4" height="46" rx="1.2"/><rect x="294" y="87" width="2.4" height="46" rx="1.2"/><rect x="307" y="87" width="2.4" height="46" rx="1.2"/><rect x="320" y="87" width="2.4" height="46" rx="1.2"/><rect x="333" y="87" width="2.4" height="46" rx="1.2"/><rect x="346" y="87" width="2.4" height="46" rx="1.2"/><rect x="359" y="87" width="2.4" height="46" rx="1.2"/>
+  </g>
+  <ellipse cx="260" cy="77" rx="117" ry="10" fill="#FFE9B0"/>
+  <ellipse cx="260" cy="76" rx="101" ry="6" fill="#C9982F" opacity=".45"/>
+
+  <!-- label -->
+  <g>
+    <rect x="130" y="352" width="261" height="214" rx="4" fill="url(#lbb)"/>
+    <rect x="130" y="352" width="261" height="214" rx="4" fill="none" stroke="#C9B893" stroke-width="1"/>
+    <rect x="141" y="363" width="239" height="192" rx="2" fill="none" stroke="#C08A2E" stroke-width="1" opacity=".55"/>
+    <!-- monogram -->
+    <g transform="translate(260,402)">
+      <circle r="21" fill="none" stroke="#C08A2E" stroke-width="1.1" opacity=".8"/>
+      <text x="0" y="8" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#8A5F1B">Y</text>
+    </g>
+    <text x="260" y="448" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="8" letter-spacing="3.4" fill="#9A8F7F">BILONA · HAND CHURNED</text>
+    <text x="260" y="480" text-anchor="middle" font-family="Georgia,serif"
+          font-size="25" fill="#1C1815">Sahiwal A2</text>
+    <line x1="226" y1="498" x2="294" y2="498" stroke="#C08A2E" stroke-width="1"/>
+    <text x="260" y="522" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="8" letter-spacing="2.6" fill="#6B6154">GRASS-FED DESI COW GHEE</text>
+    <text x="260" y="546" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="9" letter-spacing="2.2" fill="#8A5F1B">500 ML</text>
+  </g>
+</svg>

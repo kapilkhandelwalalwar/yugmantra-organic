@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Golden ghee pouring from a spoon">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A2219"/><stop offset="1" stop-color="#151009"/>
+    </linearGradient>
+    <linearGradient id="pour" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C08A2E"/><stop offset=".35" stop-color="#FFE49B"/>
+      <stop offset=".6" stop-color="#F3C860"/><stop offset="1" stop-color="#A8701C"/>
+    </linearGradient>
+    <linearGradient id="pour2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B4831F"/><stop offset=".4" stop-color="#FFE9AE"/><stop offset="1" stop-color="#9B6716"/>
+    </linearGradient>
+    <radialGradient id="lit" cx=".5" cy=".42" r=".55">
+      <stop offset="0" stop-color="#FFD98A" stop-opacity=".5"/><stop offset="1" stop-color="#FFD98A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg3)"/>
+  <ellipse cx="400" cy="440" rx="360" ry="380" fill="url(#lit)"/>
+  <!-- spoon -->
+  <g transform="translate(400,250) rotate(-16)">
+    <ellipse cx="0" cy="0" rx="96" ry="56" fill="#D8CBB4"/>
+    <ellipse cx="0" cy="-5" rx="82" ry="44" fill="#F3E9D4"/>
+    <ellipse cx="-14" cy="2" rx="62" ry="30" fill="#F0C24E"/>
+    <rect x="86" y="-13" width="250" height="26" rx="13" fill="#D8CBB4"/>
+    <rect x="86" y="-13" width="250" height="9" rx="5" fill="#F6EFDF"/>
+  </g>
+  <!-- stream -->
+  <path d="M378 292 c-6 90 -14 150 -6 226 c6 58 -2 106 -20 152" stroke="url(#pour2)" stroke-width="21" fill="none" stroke-linecap="round"/>
+  <path d="M378 292 c-6 90 -14 150 -6 226 c6 58 -2 106 -20 152" stroke="#FFF3CD" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/>
+  <!-- pool -->
+  <ellipse cx="352" cy="690" rx="188" ry="58" fill="#B4831F"/>
+  <ellipse cx="352" cy="682" rx="176" ry="50" fill="#E8B84B"/>
+  <ellipse cx="352" cy="676" rx="150" ry="38" fill="#FFD980"/>
+  <ellipse cx="316" cy="666" rx="66" ry="18" fill="#FFF0C0" opacity=".7"/>
+  <!-- ripples -->
+  <g fill="none" stroke="#FFF3CD" stroke-width="2" opacity=".4">
+    <ellipse cx="352" cy="682" rx="120" ry="30"/><ellipse cx="352" cy="686" rx="164" ry="44"/>
+  </g>
+  <!-- droplets -->
+  <g fill="#FFE49B" opacity=".9">
+    <circle cx="452" cy="600" r="8"/><circle cx="478" cy="654" r="5"/><circle cx="240" cy="620" r="6"/>
+  </g>
+</svg>

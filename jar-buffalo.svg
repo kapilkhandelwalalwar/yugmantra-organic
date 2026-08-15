@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 700" width="520" height="700" role="img" aria-label="Desi Buffalo jar">
+  <defs>
+    <linearGradient id="ghd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0"   stop-color="#EFE2C4"/>
+      <stop offset=".34" stop-color="#FBF3DE"/>
+      <stop offset=".72" stop-color="#FFFBF0"/>
+      <stop offset="1"   stop-color="#EFE2C4"/>
+    </linearGradient>
+    <linearGradient id="ldd" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#9E9382"/>
+      <stop offset=".16"  stop-color="#D9D0BC"/>
+      <stop offset=".40"  stop-color="#FFF0C4"/>
+      <stop offset=".58"  stop-color="#D9D0BC"/>
+      <stop offset=".82"  stop-color="#9E9382"/>
+      <stop offset="1"    stop-color="#6E4A12"/>
+    </linearGradient>
+    <linearGradient id="gld" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="#ffffff" stop-opacity=".62"/>
+      <stop offset=".14" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset=".70" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".90" stop-color="#ffffff" stop-opacity=".30"/>
+      <stop offset="1"   stop-color="#7a5a22" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="lbd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FDFAF2"/>
+      <stop offset="1" stop-color="#F0E7D4"/>
+    </linearGradient>
+    <radialGradient id="shd" cx=".5" cy=".5" r=".5">
+      <stop offset="0"   stop-color="#6b4a17" stop-opacity=".38"/>
+      <stop offset="1"   stop-color="#6b4a17" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grd" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="c"/>
+      <feBlend in="SourceGraphic" in2="c" mode="multiply"/>
+    </filter>
+    <clipPath id="cpd">
+      <path d="M160 146
+               L160 170
+               Q160 204 106 212
+               Q92 222 92 248
+               L92 618
+               Q92 648 122 648
+               L398 648
+               Q428 648 428 618
+               L428 248
+               Q428 222 414 212
+               Q360 204 360 170
+               L360 146 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- cast shadow -->
+  <ellipse cx="260" cy="670" rx="202" ry="26" fill="url(#shd)"/>
+
+  <!-- glass body -->
+  <path d="M160 146
+           L160 170
+           Q160 204 106 212
+           Q92 222 92 248
+           L92 618
+           Q92 648 122 648
+           L398 648
+           Q428 648 428 618
+           L428 248
+           Q428 222 414 212
+           Q360 204 360 170
+           L360 146 Z"
+        fill="#F6F1E4" fill-opacity=".55"/>
+
+  <!-- ghee fill -->
+  <g clip-path="url(#cpd)">
+    <rect x="86" y="226" width="348" height="430" fill="url(#ghd)"/>
+    <rect x="86" y="226" width="348" height="430" fill="url(#ghd)" filter="url(#grd)" opacity=".55"/>
+    <!-- meniscus -->
+    <ellipse cx="260" cy="228" rx="162" ry="15" fill="#FFF1C6" opacity=".55"/>
+    <ellipse cx="260" cy="233" rx="150" ry="9" fill="#FFFAE4" opacity=".38"/>
+    <!-- grain flecks -->
+    <g opacity=".30" fill="#FFF6DA">
+      <circle cx="188" cy="318" r="4.5"/><circle cx="318" cy="372" r="6"/>
+      <circle cx="236" cy="436" r="3.6"/><circle cx="356" cy="464" r="4.2"/>
+      <circle cx="156" cy="412" r="3.2"/><circle cx="274" cy="290" r="3.4"/>
+      <circle cx="208" cy="498" r="5"/><circle cx="334" cy="272" r="3"/>
+    </g>
+    <!-- inner light -->
+    <ellipse cx="189.44" cy="356" rx="46" ry="118" fill="#FFF3CE" opacity=".22"/>
+  </g>
+
+  <!-- glass sheen over everything -->
+  <path d="M160 146
+           L160 170
+           Q160 204 106 212
+           Q92 222 92 248
+           L92 618
+           Q92 648 122 648
+           L398 648
+           Q428 648 428 618
+           L428 248
+           Q428 222 414 212
+           Q360 204 360 170
+           L360 146 Z"
+        fill="url(#gld)"/>
+  <!-- specular streak -->
+  <rect x="114" y="260" width="13" height="302" rx="7" fill="#fff" opacity=".40"/>
+  <rect x="388" y="292" width="7" height="242" rx="4" fill="#fff" opacity=".22"/>
+
+  <!-- neck ring -->
+  <rect x="157" y="144" width="206" height="11" rx="5" fill="#E4DAC4" opacity=".85"/>
+
+  <!-- lid -->
+  <rect x="146" y="74" width="228" height="76" rx="9" fill="url(#ldd)"/>
+  <rect x="146" y="74" width="228" height="9" rx="4.5" fill="#FFF3CF" opacity=".55"/>
+  <rect x="146" y="137" width="228" height="13" rx="6" fill="#7A5316" opacity=".45"/>
+  <g opacity=".26" fill="#3A2708">
+    <rect x="154" y="87" width="2.4" height="46" rx="1.2"/><rect x="167" y="87" width="2.4" height="46" rx="1.2"/><rect x="180" y="87" width="2.4" height="46" rx="1.2"/><rect x="193" y="87" width="2.4" height="46" rx="1.2"/><rect x="206" y="87" width="2.4" height="46" rx="1.2"/><rect x="219" y="87" width="2.4" height="46" rx="1.2"/><rect x="232" y="87" width="2.4" height="46" rx="1.2"/><rect x="245" y="87" width="2.4" height="46" rx="1.2"/><rect x="258" y="87" width="2.4" height="46" rx="1.2"/><rect x="271" y="87" width="2.4" height="46" rx="1.2"/><rect x="284" y="87" width="2.4" height="46" rx="1.2"/><rect x="297" y="87" width="2.4" height="46" rx="1.2"/><rect x="310" y="87" width="2.4" height="46" rx="1.2"/><rect x="323" y="87" width="2.4" height="46" rx="1.2"/><rect x="336" y="87" width="2.4" height="46" rx="1.2"/><rect x="349" y="87" width="2.4" height="46" rx="1.2"/>
+  </g>
+  <ellipse cx="260" cy="77" rx="114" ry="10" fill="#FFE9B0"/>
+  <ellipse cx="260" cy="76" rx="98" ry="6" fill="#C9982F" opacity=".45"/>
+
+  <!-- label -->
+  <g>
+    <rect x="133" y="346" width="255" height="232" rx="4" fill="url(#lbd)"/>
+    <rect x="133" y="346" width="255" height="232" rx="4" fill="none" stroke="#C9B893" stroke-width="1"/>
+    <rect x="144" y="357" width="233" height="210" rx="2" fill="none" stroke="#C08A2E" stroke-width="1" opacity=".55"/>
+    <!-- monogram -->
+    <g transform="translate(260,396)">
+      <circle r="21" fill="none" stroke="#C08A2E" stroke-width="1.1" opacity=".8"/>
+      <text x="0" y="8" text-anchor="middle" font-family="Georgia,serif" font-size="24" fill="#8A5F1B">Y</text>
+    </g>
+    <text x="260" y="442" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="8" letter-spacing="3.4" fill="#9A8F7F">SLOW SIMMERED</text>
+    <text x="260" y="474" text-anchor="middle" font-family="Georgia,serif"
+          font-size="25" fill="#1C1815">Desi Buffalo</text>
+    <line x1="226" y1="492" x2="294" y2="492" stroke="#C08A2E" stroke-width="1"/>
+    <text x="260" y="516" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="8" letter-spacing="2.6" fill="#6B6154">PURE BUFFALO MILK GHEE</text>
+    <text x="260" y="558" text-anchor="middle" font-family="Inter,Helvetica,sans-serif"
+          font-size="9" letter-spacing="2.2" fill="#8A5F1B">1 LITRE</text>
+  </g>
+</svg>

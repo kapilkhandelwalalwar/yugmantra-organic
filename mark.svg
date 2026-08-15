@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60" role="img" aria-label="Yugmantra monogram">
+  <defs>
+    <linearGradient id="mg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A5F1B"/><stop offset=".5" stop-color="#E8B84B"/><stop offset="1" stop-color="#B4831F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="30" cy="30" r="28.4" fill="none" stroke="url(#mg)" stroke-width="1.2"/>
+  <circle cx="30" cy="30" r="24" fill="none" stroke="url(#mg)" stroke-width=".6" opacity=".5"/>
+  <!-- stylised Y as a sprout / churn -->
+  <path d="M30 41.5 V29.5" stroke="#1C1815" stroke-width="1.9" stroke-linecap="round"/>
+  <path d="M30 29.6 C30 23.4 25.4 20.6 20.6 19.4 C20.8 25.4 24.4 29.2 30 29.6 Z" fill="#1C1815"/>
+  <path d="M30 29.6 C30 23.4 34.6 20.6 39.4 19.4 C39.2 25.4 35.6 29.2 30 29.6 Z" fill="url(#mg)"/>
+  <circle cx="30" cy="44.6" r="1.7" fill="url(#mg)"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Grazing desi cow at dawn">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6E2B4"/><stop offset=".45" stop-color="#F0D89F"/><stop offset="1" stop-color="#E5C88C"/>
+    </linearGradient>
+    <linearGradient id="fld" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9B37E"/><stop offset="1" stop-color="#9E8B58"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFF3C8"/><stop offset=".55" stop-color="#FFDD8E" stop-opacity=".8"/><stop offset="1" stop-color="#FFD37A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#sky)"/>
+  <circle cx="560" cy="300" r="210" fill="url(#sun)"/>
+  <circle cx="560" cy="300" r="72" fill="#FFF0BE" opacity=".95"/>
+  <!-- distant treeline -->
+  <g fill="#B6A171" opacity=".55">
+    <ellipse cx="90" cy="620" rx="70" ry="34"/><ellipse cx="200" cy="628" rx="54" ry="26"/>
+    <ellipse cx="700" cy="624" rx="66" ry="30"/><ellipse cx="600" cy="632" rx="46" ry="22"/>
+    <ellipse cx="380" cy="630" rx="50" ry="24"/>
+  </g>
+  <rect y="640" width="800" height="360" fill="url(#fld)"/>
+  <!-- grass strokes -->
+  <g stroke="#8A7746" stroke-width="2" opacity=".45" stroke-linecap="round">
+    <path d="M40 1000 q10 -60 2 -104"/><path d="M120 1000 q-12 -70 4 -120"/><path d="M690 1000 q14 -66 0 -110"/>
+    <path d="M760 1000 q-10 -80 6 -126"/><path d="M300 1000 q8 -50 0 -84"/><path d="M470 1000 q-8 -56 2 -92"/>
+  </g>
+  <!-- cow silhouette: Gir — shoulder hump, dewlap, drooping ears, lyre horns -->
+  <g fill="#2C2419" transform="translate(150,392) scale(1.12)">
+    <!-- barrel -->
+    <ellipse cx="140" cy="150" rx="92" ry="53"/>
+    <rect x="48" y="128" width="184" height="62" rx="26"/>
+    <!-- shoulder hump -->
+    <ellipse cx="198" cy="108" rx="31" ry="27"/>
+    <!-- rump -->
+    <ellipse cx="66" cy="132" rx="30" ry="30"/>
+    <!-- neck -->
+    <path d="M188 112 L258 100 L272 152 L196 176 Z"/>
+    <!-- head + muzzle -->
+    <path d="M252 104 C276 96 296 102 304 116
+             C312 130 322 138 330 144 C334 148 332 156 324 158
+             C310 160 292 156 280 148 C266 138 254 126 250 116 Z"/>
+    <!-- dewlap -->
+    <path d="M262 148 C258 168 246 186 230 194 C220 198 210 192 208 182
+             C220 176 236 164 246 146 Z"/>
+    <!-- ears -->
+    <path d="M258 106 C240 108 226 118 222 130 C236 130 252 122 260 112 Z"/>
+    <path d="M268 100 C282 98 294 104 298 114 C286 112 274 108 266 104 Z"/>
+    <!-- lyre horns -->
+    <path d="M266 96 C270 78 264 64 250 58" stroke="#2C2419" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+    <path d="M282 100 C293 86 294 70 284 60" stroke="#2C2419" stroke-width="7.5" stroke-linecap="round" fill="none"/>
+    <!-- legs -->
+    <rect x="196" y="176" width="15" height="86" rx="6"/>
+    <rect x="216" y="172" width="15" height="90" rx="6"/>
+    <rect x="62"  y="176" width="15" height="86" rx="6"/>
+    <rect x="86"  y="172" width="15" height="90" rx="6"/>
+    <!-- hocks -->
+    <ellipse cx="70" cy="182" rx="13" ry="16"/>
+    <ellipse cx="94" cy="180" rx="13" ry="16"/>
+    <!-- udder -->
+    <ellipse cx="150" cy="192" rx="26" ry="14"/>
+    <!-- tail -->
+    <path d="M46 126 C32 158 32 200 40 228" stroke="#2C2419" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <ellipse cx="41" cy="238" rx="7" ry="13"/>
+    <!-- eye -->
+    <circle cx="282" cy="124" r="4.2" fill="#F0D89F"/>
+  </g>
+
+  <!-- calf -->
+  <g fill="#3A3021" opacity=".62" transform="translate(486,558) scale(.52)">
+    <ellipse cx="140" cy="150" rx="88" ry="50"/>
+    <rect x="52" y="130" width="176" height="58" rx="25"/>
+    <ellipse cx="192" cy="116" rx="26" ry="22"/>
+    <ellipse cx="68" cy="134" rx="28" ry="28"/>
+    <path d="M186 118 L254 106 L268 154 L194 176 Z"/>
+    <path d="M250 110 C274 102 294 108 302 122
+             C310 136 320 144 328 150 C332 154 330 162 322 164
+             C308 166 290 162 278 154 C264 144 252 132 248 122 Z"/>
+    <path d="M256 112 C238 114 224 124 220 136 C234 136 250 128 258 118 Z"/>
+    <rect x="196" y="176" width="14" height="86" rx="6"/>
+    <rect x="214" y="172" width="14" height="90" rx="6"/>
+    <rect x="64"  y="176" width="14" height="86" rx="6"/>
+    <rect x="88"  y="172" width="14" height="90" rx="6"/>
+    <path d="M48 128 C34 158 34 198 42 224" stroke="#3A3021" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#3A3021" stroke-width="2.4" fill="none" opacity=".5" stroke-linecap="round">
+    <path d="M110 210 q14-12 28 0 q14-12 28 0"/><path d="M180 150 q10-9 20 0 q10-9 20 0"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Small batch seal">
+  <defs>
+    <path id="cir" d="M100,100 m-74,0 a74,74 0 1,1 148,0 a74,74 0 1,1 -148,0"/>
+    <linearGradient id="sg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8A5F1B"/><stop offset=".5" stop-color="#E8B84B"/><stop offset="1" stop-color="#B4831F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="93" fill="none" stroke="url(#sg)" stroke-width="1"/>
+  <circle cx="100" cy="100" r="58" fill="none" stroke="url(#sg)" stroke-width=".8" opacity=".55"/>
+  <text font-family="Inter,Helvetica,sans-serif" font-size="11" letter-spacing="3.1" fill="#8A5F1B">
+    <textPath href="#cir" startOffset="1%">SMALL BATCHES · ALWAR · SINCE 2019 · </textPath>
+  </text>
+  <g transform="translate(100,100)">
+    <path d="M0 22 V2" stroke="#1C1815" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M0 2 C0 -9 -8 -14 -16 -16 C-15.6 -6 -10 -1 0 2 Z" fill="#1C1815"/>
+    <path d="M0 2 C0 -9 8 -14 16 -16 C15.6 -6 10 -1 0 2 Z" fill="url(#sg)"/>
+  </g>
+</svg>
